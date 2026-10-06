@@ -3183,6 +3183,7 @@ extern "C" {
     boolean canNegateCreatureStatusEffects(creature *monst);
     void negateCreatureStatusEffects(creature *monst);
     boolean monsterIsNegatable(creature *monst);
+    const char *playerStatusEndedMessage(enum statusEffects status);
 
     boolean monsterWillAttackTarget(const creature *attacker, const creature *defender);
     boolean monstersAreTeammates(const creature *monst1, const creature *monst2);
